@@ -11,3 +11,9 @@ p {
   font-family: serif;
   font-size: 60x;
 }
+
+img {
+  width: 200px;
+  height: 300px;
+
+}
