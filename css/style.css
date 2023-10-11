@@ -12,6 +12,12 @@ p {
   font-size: 60x;
 }
 
+resize {
+    width: 400px;
+    height: auto;
+}
+
+
 center {
 display: block;
 margin-left: auto;
