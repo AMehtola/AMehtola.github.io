@@ -11,3 +11,10 @@ p {
   font-family: serif;
   font-size: 60x;
 }
+
+center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
