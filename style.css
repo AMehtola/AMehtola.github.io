@@ -11,6 +11,11 @@ body{
 		
 	}
 
+image{
+  width:auto
+  margin:auto
+}
+
 
 a:link {
   color: green;
