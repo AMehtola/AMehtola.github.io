@@ -4,14 +4,14 @@ var number2 = 100;
 if (number1 > number2) {
     alert('true!!!');
 } else {
-    alert('false!!!');
+    alert('Tervetuloa');
 }
 
 var name1 = 'Teuvo';
 var name2 = 'Tomi';
 
 if (name1 == 'Teuvo' && name2 == 'Tomi') {
-    alert('true 1 !!!') 
+    alert('CV:seen!') 
 } else if (name2 == 'Teuvo') {
     alert('true 2 !!!');
 } else {
