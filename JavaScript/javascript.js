@@ -10,10 +10,10 @@ if (number1 > number2) {
 var name1 = 'Teuvo';
 var name2 = 'Tomi';
 
-if (name1 == 'Teuvo' && name2 == 'Tomi') {
-    alert('true 1 !!!') 
-} else if (name2 == 'Teuvo') {
-    alert('true 2 !!!');
+if (name1 == 'Teuvo' && name2 == 'Tomi') 
+
+else if (name2 == 'Teuvo') {
+    alert('true !!!');
 } else {
     alert('false!!!');
 }
