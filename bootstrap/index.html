@@ -8,25 +8,46 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style/style.css">
+
     <title>Terve</title>
   </head>
 
   <body>
-    <section class="container-fluid bg-dark">
-    <div class="row">
-        <div class="offset-md-3 col-md-6">
-        <h1>Theres a some kind of a link here?</h1>
-        <p>Something about a link yea.</p>
-        <a href="">the link</a>
+  <!--Valikko bar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+<a class="navbar-brand" href="">Bootstrap Productivity</a>
+<button type="button" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home 2</a>
+        </li>
+    </ul>
+</div>
+    </nav>
+
+<section class="container-fluid bg-dark text-center">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-6 my-5">
+        <h1 class="text-light">Theres a some kind of a link here?</h1>
+        <p class="btn btn-outline-info" href="pricing.">Something about a link yea.</p>
+        <p><a class="btn btn-outline-danger" href="">the link</a></p>
     </div>
     </div>
     </section>
 
-<section class="container">
+<section class="container my-4 p-2">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 d-flex align-items-center">
             <p class="lead">All of these features.</p>
         </div>
+       
         <div class="col-md-6"></div>
         <ul class="list-group">
             <li class="list-group-item list-group-item-danger"><span>&#10004;</span>A number 1</li>
@@ -37,6 +58,79 @@
     </div>
 </section>
 
+<section class="container-fluid text-center bg-dark my-4 py-4">
+    <h3>Power very much:</h3>
+    <div class="row my-4">
+    <div class="col"> <img src="imgs/calendar.png" width="200" height="auto">
+        <i class="fas fa-users fa-5x py-3"></i>
+        <p>Number I</p>
+    </div>
+    <div class="col"> <img src="imgs/chat.png " width="200" height="auto">
+        <i class="fas fa-users fa-5x py-3"></i>
+        <p>Number II</p>
+    </div>
+    <div class="col"> <img src="imgs/list.png" width="200" height="auto">
+        <i class="fas fa-users fa-5x py-3"></i>
+        <p>Number III</p>
+    </div>
+    <div class="col"> <img src="imgs/note.png" width="200" height="auto">
+        <i class="fas fa-users fa-5x py-3"></i>
+        <p>Number IV</p>
+    </div>
+    </div>
+</section>
+
+<section class="container text-center">
+<div class="row">
+    <div class="col-md-6 py-4"></div>
+    <h2>Multi view calendar</h2>
+    <p class="lead">Never miss a date again</p>
+    <img src="imgs/calendar.png" alt="calendar icon" class="w-50">
+    <div class="col-md-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 py-4"></div>
+    <h2>Flexible TO-DO lists</h2>
+    <p class="lead">Clear like a pro!</p>
+    <img src="imgs/list.png" alt="List icon" class="w-50">
+    <div class="col-md-6"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 py-4"></div>
+    <h2>Cool chat!</h2>
+    <p class="lead">Chat pro</p>
+    <img src="imgs/chat.png" alt="List icon" class="w-50">
+    <div class="col-md-6"></div>
+</section>
+
+
+<section class="container-fluid my-4 py-4 bg-dark">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <h3 class="py-3">Yea maaan.</h3>
+            <div class="row justify-content-around">
+                <div class="col-5 bg-white p-4">Jakakakakakkaksadadkad</div>
+                <div class="col-5 bg-white p-4">Balloonsss adsadadsafasfasfas</div>
+                <blockquote class="blockquote">
+                    <p>uadsjadjanjdanjk</p>
+                <footer class="blockquote-footer">Free plan user <cite></cite></footer>
+                </blockquote>
+                
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<img src="imgs/sample.jpg" alt="sample" class="w-25">
+<img src="imgs/sample.jpg" alt="sample" class="w-50 rounded">
+<img src="imgs/sample.jpg" alt="sample" class="w-50 rounded-circle">
+<img src="imgs/sample.jpg" alt="sample" class="w-50 rounded-pill">
+<img src="imgs/sample.jpg" alt="sample" class="w-75 img-thumbnail">
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
