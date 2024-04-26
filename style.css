@@ -3,7 +3,7 @@ font-size: 20px;
 }
 
 body{
-	background-image: url("img/blue.jpg");
+	background-image: url("img/cv.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: center; 
@@ -51,7 +51,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, ol, li, dl, pre {
 	color: rgb(0, 0, 0);
   }
   html, body {
-	background: #bdcbe5;
+	background-image: ;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 1.55;
