@@ -87,7 +87,21 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, ol, li, dl, pre {
 	margin: 0 auto;
 	padding: 0 20px 40px;
   }
+
+.link-box {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
   
+  .link-box:hover {
+    background-color: #b6b6b6; 
+  }
+
+
   /**/
   /* main styles */
   /**/
